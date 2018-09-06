@@ -1,0 +1,56 @@
+.planing-table-wrap{
+  .ant-card{
+    margin-top:30px;
+  }
+  .process-wrap{
+    margin-bottom: 10px;
+    margin-top:20px;
+    .item{
+      position: relative;
+      width:10%;
+      margin-right: 10px;
+      padding-bottom:10px;
+      border:1px dashed #e8e8e8;
+      text-align: center;
+      p{
+        margin:0;
+        padding-top: 0;
+      }
+      .hid{
+        display: none;
+      }
+      .hidd{
+        display: none;
+      }
+    }
+    .has-done{
+      border:1px solid #40a9ff;
+      border-top: 3px solid #40a9ff;
+      color:#40a9ff;
+      .hid{
+        display: block;
+        position: absolute;
+        top: -25px;
+        left: -1px;
+        border-radius: 0;
+        padding: 5px;
+        background: #40a9ff;
+      }
+    }
+    .not-done{
+      .hidd{
+        display: block;
+        position: absolute;
+        top: -24px;
+        left: -1px;
+        border-radius: 0;
+        padding: 5px;
+        background: #fff;
+        border:1px dashed #e8e8e8;
+        border-bottom:2px solid #fff;
+        color:#999;
+        color:rgba(0,0,0,0.45)
+      }
+    }
+  }
+}

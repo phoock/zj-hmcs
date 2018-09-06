@@ -1,0 +1,65 @@
+.login-wrap{
+
+  .bg-wrap{
+    position: absolute;
+    top:0;
+    bottom:0;
+    left: 0;
+    right:0;
+    overflow: hidden;
+    transition: all .4s ease;
+    background-image: url('./images/bg02.jpg');
+    min-width: 1280px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    .black-filter{
+      position: absolute;
+      top:0;
+      bottom: 0;
+      left:0;
+      right:0;
+      background: rgba(255,255,255,.2);
+      .content-wrap{
+        position: absolute;
+        z-index: 3;
+        width: 300px;
+        left: 50%;
+        top:50%;
+        transform:translate(-50%,-60%);
+        padding:30px;
+        background: rgba(255,255,255,.9);
+        border: 20px solid rgba(0,0,0,0.5);
+        background-clip: padding-box;
+        &:before{
+          content:'管理员登录';
+          position: relative;
+          top: -16px;
+          left: 46px;
+          font-size: 20px;
+          color:#696969;
+        }
+        .message-warning{
+          font-size: 14px;
+          color:#f5222d;
+          margin-top: -12px;
+        }
+      }
+
+    }
+  }
+  .fade-out{
+    left:100%;
+    top:100%;
+    opacity: .3;
+  }
+  .login-form {
+    max-width: 300px;
+  }
+ .login-form-forgot {
+    float: right;
+  }
+ .login-form-button {
+    width: 100%;
+  }
+}

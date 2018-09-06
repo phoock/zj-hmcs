@@ -1,0 +1,28 @@
+.project-planing-edit{
+  .map-mode{
+    color:#1890ff;
+    font-weight: bold;
+  }
+  .label{
+    position: absolute;
+    top: 0;
+    left: 20px;
+  }
+  .label-success{
+    background: #2dafcb;
+    font-weight: normal;
+    color: #fff;
+  }
+  .label-hidden{
+    display: none
+  }
+  .is-finished{
+    display: block;
+  }
+  .ant-tabs-nav-container{
+    line-height: 4;
+  }
+  .ant-tabs-tab{
+    position: relative;
+  }
+}
